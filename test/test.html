@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Personalidad Big Five</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test de Personalidad Big Five</h1>
+    <form id="bigFiveForm">
+        <!-- Extraversión -->
+        <h2>Extraversión</h2>
+        <div class="question">
+            <label for="extraversion1">Me considero extrovertido, sociable:</label><br>
+            <input type="radio" name="extraversion1" value="1"> Totalmente en desacuerdo<br>
+            <input type="radio" name="extraversion1" value="2"> En desacuerdo<br>
+            <input type="radio" name="extraversion1" value="3"> Neutral<br>
+            <input type="radio" name="extraversion1" value="4"> De acuerdo<br>
+            <input type="radio" name="extraversion1" value="5"> Totalmente de acuerdo
+        </div>
+        <div class="question">
+            <label for="extraversion2">Disfruto ser el centro de atención:</label><br>
+            <input type="radio" name="extraversion2" value="1"> Totalmente en desacuerdo<br>
+            <input type="radio" name="extraversion2" value="2"> En desacuerdo<br>
+            <input type="radio" name="extraversion2" value="3"> Neutral<br>
+            <input type="radio" name="extraversion2" value="4"> De acuerdo<br>
+            <input type="radio" name="extraversion2" value="5"> Totalmente de acuerdo
+        </div>
+
+        <!-- Amabilidad -->
+        <h2>Amabilidad</h2>
+        <div class="question">
+            <label for="agreeableness1">Me considero empático y comprensivo con los demás:</label><br>
+            <input type="radio" name="agreeableness1" value="1"> Totalmente en desacuerdo<br>
+            <input type="radio" name="agreeableness1" value="2"> En desacuerdo<br>
+            <input type="radio" name="agreeableness1" value="3"> Neutral<br>
+            <input type="radio" name="agreeableness1" value="4"> De acuerdo<br>
+            <input type="radio" name="agreeableness1" value="5"> Totalmente de acuerdo
+        </div>
+        <div class="question">
+            <label for="agreeableness2">Ayudo a los demás de forma voluntaria:</label><br>
+            <input type="radio" name="agreeableness2" value="1"> Totalmente en desacuerdo<br>
+            <input type="radio" name="agreeableness2" value="2"> En desacuerdo<br>
+            <input type="radio" name="agreeableness2" value="3"> Neutral<br>
+            <input type="radio" name="agreeableness2" value="4"> De acuerdo<br>
+            <input type="radio" name="agreeableness2" value="5"> Totalmente de acuerdo
+        </div>
+
+        <!-- Responsabilidad -->
+        <h2>Responsabilidad</h2>
+        <div class="question">
+            <label for="conscientiousness1">Me esfuerzo por cumplir con mis obligaciones a tiempo:</label><br>
+            <input type="radio" name="conscientiousness1" value="1"> Totalmente en desacuerdo<br>
+            <input type="radio" name="conscientiousness1" value="2"> En desacuerdo<br>
+            <input type="radio" name="conscientiousness1" value="3"> Neutral<br>
+            <input type="radio" name="conscientiousness1" value="4"> De acuerdo<br>
+            <input type="radio" name="conscientiousness1" value="5"> Totalmente de acuerdo
+        </div>
+        <div class="question">
+            <label for="conscientiousness2">Me considero una persona organizada y planificadora:</label><br>
+            <input type="radio" name="conscientiousness2" value="1"> Totalmente en desacuerdo<br>
+            <input type="radio" name="conscientiousness2" value="2"> En desacuerdo<br>
+            <input type="radio" name="conscientiousness2" value="3"> Neutral<br>
+            <input type="radio" name="conscientiousness2" value="4"> De acuerdo<br>
+            <input type="radio" name="conscientiousness2" value="5"> Totalmente de acuerdo
+        </div>
+
+        <!-- Apertura a la experiencia -->
+        <h2>Apertura a la experiencia</h2>
+        <div class="question">
+            <label for="openness1">Me considero una persona curiosa y con imaginación:</label><br>
+            <input type="radio" name="openness1" value="1"> Totalmente en desacuerdo<br>
+            <input type="radio" name="openness1" value="2"> En desacuerdo<br>
+            <input type="radio" name="openness1" value="3"> Neutral<br>
+            <input type="radio" name="openness1" value="4"> De acuerdo<br>
+            <input type="radio" name="openness1" value="5"> Totalmente de acuerdo
+        </div>
+        <div class="question">
+            <label for="openness2">Disfruto experimentar cosas nuevas y distintas:</label><br>
+            <input type="radio" name="openness2" value="1"> Totalmente en desacuerdo<br>
+            <input type="radio" name="openness2" value="2"> En desacuerdo<br>
+            <input type="radio" name="openness2" value="3"> Neutral<br>
+            <input type="radio" name="openness2" value="4"> De acuerdo<br>
+            <input type="radio" name="openness2" value="5"> Totalmente de acuerdo
+        </div>
+
+        <!-- Estabilidad emocional -->
+        <h2>Estabilidad emocional</h2>
+        <div class="question">
+            <label for="neuroticism1">Suelo mantener la calma ante situaciones de estrés:</label><br>
+            <input type="radio" name="neuroticism1" value="1"> Totalmente en desacuerdo<br>
+            <input type="radio" name="neuroticism1" value="2"> En desacuerdo<br>
+            <input type="radio" name="neuroticism1" value="3"> Neutral<br>
+            <input type="radio" name="neuroticism1" value="4"> De acuerdo<br>
+            <input type="radio" name="neuroticism1" value="5"> Totalmente de acuerdo
+        </div>
+        <div class="question">
+            <label for="neuroticism2">Me considero emocionalmente estable y equilibrado:</label><br>
+            <input type="radio" name="neuroticism2" value="1"> Totalmente en desacuerdo<br>
+            <input type="radio" name="neuroticism2" value="2"> En desacuerdo<br>
+            <input type="radio" name="neuroticism2" value="3"> Neutral<br>
+            <input type="radio" name="neuroticism2" value="4"> De acuerdo<br>
+            <input type="radio" name="neuroticism2" value="5"> Totalmente de acuerdo
+        </div>
+
+        <button type="button" onclick="calculateResults()">Enviar</button>
+    </form>
+
+    <h2>Resultados:</h2>
+    <p id="results"></p>
+
+    <script>
+        function calculateResults() {
+            const form = document.getElementById('bigFiveForm');
+            const formData = new FormData(form);
+
+            const extraversion = (
+                parseInt(formData.get('extraversion1')) +
+                parseInt(formData.get('extraversion2'))
+            ) / 2 || 0;
+
+            const agreeableness = (
+                parseInt(formData.get('agreeableness1')) +
+                parseInt(formData.get('agreeableness2'))
+            ) / 2 || 0;
+
+            const conscientiousness = (
+                parseInt(formData.get('conscientiousness1')) +
+                parseInt(formData.get('conscientiousness2'))
+            ) / 2 || 0;
+
+            const openness = (
+                parseInt(formData.get('openness1')) +
+                parseInt(formData.get('openness2'))
+            ) / 2 || 0;
+
+            const neuroticism = (
+                parseInt(formData.get('neuroticism1')) +
+                parseInt(formData.get('neuroticism2
